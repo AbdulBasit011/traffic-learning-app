@@ -49,7 +49,7 @@ class _FragmentsState extends State<Fragments> {
                 borderRadius: BorderRadius.circular(15),
               ),
 
-              child: const Center(child: Text("Learning",style: TextStyle(
+              child: const Center(child: Text("Test",style: TextStyle(
                 color:Colors.black,                fontSize: 17,
                 fontWeight: FontWeight.w600,
               ),)),
@@ -66,7 +66,7 @@ class _FragmentsState extends State<Fragments> {
                 borderRadius: BorderRadius.circular(15),
               ),
 
-              child: const Center(child: Text("Learning",style: TextStyle(
+              child: const Center(child: Text("License Location",style: TextStyle(
                 color:Colors.black,                fontSize: 17,
                 fontWeight: FontWeight.w600,
               ),)),
@@ -83,7 +83,7 @@ class _FragmentsState extends State<Fragments> {
                 borderRadius: BorderRadius.circular(15),
               ),
 
-              child: const Center(child: Text("Learning",style: TextStyle(
+              child: const Center(child: Text("Track License",style: TextStyle(
                 color:Colors.black,
                 fontSize: 17,
                 fontWeight: FontWeight.w600,
@@ -101,7 +101,7 @@ class _FragmentsState extends State<Fragments> {
                 borderRadius: BorderRadius.circular(15),
               ),
 
-              child: const Center(child: Text("Learning",style: TextStyle(
+              child: const Center(child: Text("Verify License",style: TextStyle(
                 color:Colors.black,
                 fontSize: 17,
                 fontWeight: FontWeight.w600,
