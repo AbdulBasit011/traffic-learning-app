@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904982189775",
+    "project_id": "basit-e4f69",
+    "storage_bucket": "basit-e4f69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904982189775:android:07cb9c44bed59f237d89ba",
+        "android_client_info": {
+          "package_name": "com.example.gymbudd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904982189775-89ein2mn53il4cjaqkprn7hu0ruf5qq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7IDB3WWYDBz1oG_vg2LFleDctB7rAQbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904982189775-89ein2mn53il4cjaqkprn7hu0ruf5qq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
