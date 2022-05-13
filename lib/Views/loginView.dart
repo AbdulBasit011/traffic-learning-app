@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:gymbudd/Widgets/custom_app_bar.dart';
@@ -77,6 +78,7 @@ class _loginState extends State<login> {
               child: SizedBox(
                 width: 311,
                 child: TextField(
+                  obscureText: true,
                   decoration: const InputDecoration(
                     hintText: "Password",
                     label: Text(
@@ -119,7 +121,7 @@ class _loginState extends State<login> {
               {
                 await auth.signInWithEmailAndPassword(email: Email, password: Password)
                     .then((value) => ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Login Successfully"))))
-                    .then((value) => Get.off(Fragments()));
+                    .then((value) => Get.offAll(Fragments()));
               }
             }catch(e)
             {
@@ -151,7 +153,15 @@ class _loginState extends State<login> {
             ),
           ),
         ),
-      )
+      ),
+            const SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: const [
+                Icon(FontAwesomeIcons.google,color: Colors.red,size: 40,),
+                Icon(FontAwesomeIcons.facebook,color: Colors.blue,size: 40,),
+              ],
+            )
           ],
         ),
       ),

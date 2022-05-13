@@ -74,7 +74,7 @@ class _SignInSignUpState extends State<SignInSignUp> {
                   children: [
                     Container(
                       color: Colors.transparent,
-                      height: 300,
+                      height: 250,
                       child: PageView.builder(
                         controller: controller,
                         scrollDirection: Axis.horizontal,
@@ -243,6 +243,7 @@ class _SignInSignUpState extends State<SignInSignUp> {
 
 class Slider extends StatelessWidget {
   final Map data;
+
 
   Slider({
     this.data,
